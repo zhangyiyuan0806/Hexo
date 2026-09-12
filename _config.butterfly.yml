@@ -533,6 +533,11 @@ share:
 # --------------------------------------
 
 comments:
+  use: Giscus
+  text: true
+  lazyload: false
+  count: true
+  card_post_count: true
   # Up to two comments system, the first will be shown as default
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
@@ -634,14 +639,13 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo:
-  repo_id:
-  category_id:
+  repo: 你的用户名/blog-comments
+  repo_id: R_kgDOTg7Zmw
+  category_id: DIC_kwDOTg7Zm84DFdG6
   light_theme: light
   dark_theme: dark
-  js:
+  js: https://giscus.app/client.js
   option:
-
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
 remark42:
