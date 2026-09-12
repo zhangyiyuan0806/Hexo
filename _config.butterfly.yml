@@ -538,20 +538,6 @@ comments:
   lazyload: false
   count: true
   card_post_count: true
-  # Up to two comments system, the first will be shown as default
-  # Leave it empty if you don't need comments
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  # Format of two comments system : Disqus,Waline
-  use:
-  # Display the comment name next to the button
-  text: true
-  # Lazyload: The comment system will be load when comment element enters the browser's viewport.
-  # If you set it to true, the comment count will be invalid
-  lazyload: false
-  # Display comment count in post's top_img
-  count: false
-  # Display comment count in Home Page
-  card_post_count: false
 
 # Disqus
 # https://disqus.com/
@@ -639,13 +625,14 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: 你的用户名/blog-comments
+  repo: zhangyiyuan0806/blog-comments
   repo_id: R_kgDOTg7Zmw
   category_id: DIC_kwDOTg7Zm84DFdG6
   light_theme: light
   dark_theme: dark
   js: https://giscus.app/client.js
   option:
+
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
 remark42:
